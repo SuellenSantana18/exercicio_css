@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 350px;
+    height: 220px;
+    width: 100%;
+}
+
+/* estilizar os links: um do lado do outro */
+/* display inline farma que quer esse conteudo em uma linha */
+
+header li {
+display:inline; 
+}
+
+/* container area de conteudo */
+.container {
+width: 1250px;
+margin: 0 auto;
+}
+ /* display flex coloca o conteudo um do lado do oto (precisa de mais deum conteuo) space btw = espaçamento igualitario*/
+.articles{
+display: flex;
+justify-content: space-between;
+}
+
+
+/* noticias por linha */
+
+.articles article {
+    width: 30%;
+}
+
+/* mudar a descendencia de alguma div /class/etc */
+body > header{
+    background-color: rgb(97, 139, 36);
+    padding: 16px 0 ;
+    color: beige;
+}
+
+
+/* estilização dos links do header*/
+header li a{
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header li{
+    display: inline;
+}
+
+section{
+    padding: 16px 0;
+
+}
+
+section h2{
+    margin-bottom:16px;
+}
+
+/* margin titulo da noticia */
+
+
+
+article article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+/* mexer botoes */
+.articles article a:hover{
+text-decoration: underline;
+}
+
+
+
+/* mudar fonte */
+.articles article p,
+.articles article a {
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+/* cor de fundo nas sessoes  */
+
+#economia {
+    background-color:rgba(115, 218, 115, 0.55);
+
+
+}
+
+#esportes {
+    background-color:rgb(178, 223, 150) ;
+}
+
+/* Seletor de imagem com alt="bolsa" */
+
+
+/* Seletor de imagem com alt="bolsa" */
+
+
+
